@@ -2,6 +2,7 @@
 
 # node v6.9.4 or higher must be installed
 node$ node -v
+
 v6.9.4
 
 # Install Mocha and Chai
