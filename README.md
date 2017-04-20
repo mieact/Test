@@ -21,6 +21,7 @@ node$ ./node_modules/mocha/bin/mocha
 
 
   API Test
+  
     ✓ response should contain l http://finance.google.com/finance/info?client=ig&q=NSE:PYPL (195ms)
     ✓ response should contain l http://finance.google.com/finance/info?client=ig&q=NSE:EBAY (105ms)
     1) response should contain l http://finance.google.com/finance/info?client=ig&q=NSE:PP
@@ -28,9 +29,11 @@ node$ ./node_modules/mocha/bin/mocha
 
 
   3 passing (477ms)
+  
   1 failing
 
   1) API Test response should contain l http://finance.google.com/finance/info?client=ig&q=NSE:PP:
+  
      Uncaught AssertionError: expected 200 to equal 400
       at ClientRequest.<anonymous> (test/test.js:14:16)
       at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:474:21)
