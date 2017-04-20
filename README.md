@@ -14,8 +14,9 @@ npm install chai
 ./node_modules/mocha/bin/mocha
 
 # Sample Ouput
-# Server returns 400 for GET request http://finance.google.com/finance/info?client=ig&q=NSE:PP
-# Asserting sum of the values(expected value set to 77.15) will mostly fail as well when it is executed because the quotes are dynamic and will change constantly.
+#Server returns 400 for GET request http://finance.google.com/finance/info?client=ig&q=NSE:PP
+
+#Asserting sum of the values(expected value set to 77.15) will mostly fail as well when it is executed because the quotes are dynamic and will change constantly.
 
 node$ ./node_modules/mocha/bin/mocha 
 
