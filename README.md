@@ -5,7 +5,14 @@ node$ node -v
 
 v6.9.4
 
+# Clone the Test repo
+
+git clone https://www.github.com/mieact/Test.git
+
 # Install Mocha and Chai
+
+cd Test/
+
 npm install mocha
 
 npm install chai
