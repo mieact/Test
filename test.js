@@ -3,9 +3,9 @@ var assert = require('chai').assert,
 
 describe('API Test', function () {
   var urls = [
-    "http://finance.google.com/finance/info?client=ig&q=PYPL",
-    "http://finance.google.com/finance/info?client=ig&q=EBAY",
-    "http://finance.google.com/finance/info?client=ig&q=PP"
+    "http://finance.google.com/finance/info?client=ig&q=NSE:PYPL",
+    "http://finance.google.com/finance/info?client=ig&q=NSE:EBAY",
+    "http://finance.google.com/finance/info?client=ig&q=NSE:PP"
   ];
   
   urls.forEach(function(url, index) {
@@ -28,8 +28,8 @@ describe('API Test', function () {
   });
   
   var sumurls = [
-    "http://finance.google.com/finance/info?client=ig&q=PYPL",
-    "http://finance.google.com/finance/info?client=ig&q=EBAY"
+    "http://finance.google.com/finance/info?client=ig&q=NSE:PYPL",
+    "http://finance.google.com/finance/info?client=ig&q=NSE:EBAY"
   ];
   var sum = 0;
   var expectedSum = 77.26;
