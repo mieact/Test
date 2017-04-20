@@ -32,7 +32,7 @@ describe('API Test', function () {
     "http://finance.google.com/finance/info?client=ig&q=NSE:EBAY"
   ];
   var sum = 0;
-  var expectedSum = 77.26;
+  var expectedSum = 77.15;
   
   sumurls.forEach(function(url, index) {
     http.get(url, function (res) {
